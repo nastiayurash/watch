@@ -145,14 +145,40 @@ input {
   display: none;
 }
 @media screen and (min-width: 768px) {
-  header {
+  .header {
     padding: 26px 32px;
+  }
+  .logo-header {
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 1280px) {
   .menu-button,
   .menu-icon {
     display: none;
+  }
+  .header {
+    padding: 26px 64.5px;
+  }
+  .header-container {
+    display: flex;
+    align-items: center;
+  }
+  .logo-header {
+    margin-right: 203px;
+  }
+  .nav-header {
+    display: flex;
+  }
+  .nav-list {
+    display: flex;
+    gap: 40px;
+    align-items: baseline;
+    flex-direction: row;
+  }
+  .social-media-list {
+    display: flex;
+    gap: 10px;
   }
   .nav-link {
     display: block;
@@ -171,8 +197,8 @@ input {
     height: 8px;
     border-radius: 100%;
     position: absolute;
-    left: 0;
-    bottom: -1px;
+    left: 50%;
+    bottom: -6px;
     background-color: #3350e9;
   }
 
