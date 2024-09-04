@@ -573,7 +573,8 @@ input {
   }
 }
 @media screen and (min-width: 1280px) {
-  .about-us-top-thumb {
+  .about-us {
+    margin-bottom: 100px;
   }
   .about-us-text {
     max-width: 460px;
