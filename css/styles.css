@@ -85,16 +85,10 @@ input {
 /* common */
 .container {
   width: 100%;
-  padding: 0 20px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
-@media screen and (min-width: 320px) {
-  .container {
-    max-width: 100%;
-    margin: 0 auto;
-  }
-}
 @media screen and (min-width: 375px) {
   .container {
     max-width: 375px;
